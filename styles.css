@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Song+Myung&display=swap");
+
+body {
+  background-color: #101b3e;
+  /* background-color: #262c68; */
+}
+
+table {
+  /* background-color: #edcb41;
+  background-color: #cdaf2a; */
+  color: #cdaf2a;
+  color: #edcb41;
+  /* border: none; */
+}
+
+.navbar {
+  background-color: #edcb41;
+  height: max-content;
+}
+
+.navbar-brand {
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* Find a solution for this */
+edel {
+  position: relative;
+  display: inline-flex;
+  /* align-items: center;
+  align-content: space-between; */
+}
+
+.hero {
+  width: 100%;
+  height: 700px;
+  background-image: url("/squadxImages/");
+  background-image: url("/squadxImages/xmen4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-text {
+  position: relative;
+  top: 350px;
+  left: 50px;
+  font-family: "Bungee", cursive;
+  color: #f8f70f;
+  color: black;
+  color: #f8f70f;
+  color: #cdaf2a;
+  color: #edcb41;
+  font-size: 4em;
+  max-width: min-content;
+}
+
+.table {
+  /* border: solid black; */
+  border-spacing: 30px;
+  position: relative;
+}
+
+table td {
+  /* border: solid black; */
+  /* max-width: 200px;
+  max-width: max-content; */
+  font-family: "Song Myung", serif;
+  font-size: 1.3em;
+}
+
+td {
+  /* padding: 50px;
+  padding-top: 100px; */
+  padding: 3em;
+  height: fit-content;
+  width: auto;
+
+  text-align: center;
+  /* vertical-align: middle; */
+}
+
+.table th {
+  /* padding: 50px; */
+}
+
+tr {
+  /* padding: 500px; */
+}
+
+.trow {
+  /* padding: 300px; */
+  /* display: inline-block; */
+  vertical-align: bottom;
+  line-height: normal;
+}
+
+th,
+td {
+  /* padding: 20px; */
+  /* text-align: left; */
+}
+
+th {
+  border-left: #cdaf2a solid 0.5px;
+
+  font-family: "Bungee", cursive;
+  font-size: 1.5em;
+  text-align: center;
+  -webkit-text-stroke: 0.5px #101b3e;
+}
+
+.tdata {
+  vertical-align: middle;
+  position: relative;
+  top: 100px;
+  top: 4em;
+}
+
+.btn-info {
+  background-color: #25457d;
+  /* font-family: "Bungee", cursive; */
+  /* font-size: 0.5em; */
+}
+
+.btn-danger {
+  background-color: #d2242b;
+  /* font-family: "Bungee", cursive; */
+  /* font-size: 0.5em; */
+}
+
+/* ADD HERO PAGE */
+
+.addTitle {
+  font-family: "Bungee", cursive;
+  color: #edcb41;
+  font-size: 4em;
+}
+
+.addBody {
+  background-image: url("/squadxImages/xmen2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.control-label {
+  font-family: "Bungee", cursive;
+  color: #edcb41;
+  font-size: 1.5em;
+}
+
+.form-control {
+  height: 55px;
+  border-radius: 20px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.form-horizontal {
+  /* margin-top: 100px; */
+  position: relative;
+  top: 10em;
+}
+/* 
+.form-group {
+  margin-top: 2%;
+} */
+
+.col-md-offset-10 {
+  font-family: "Bungee";
+  align-items: center;
+}
+
+.form-image-input {
+  position: relative;
+
+  left: 10em;
+}
+
+.addTitleUpdate {
+  font-size: 3em;
+  font-family: "Bungee", cursive;
+  color: #edcb41;
+}
+
+.updateBody {
+  background-image: url("/squadxImages/xmen2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
